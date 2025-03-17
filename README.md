@@ -61,6 +61,7 @@ docker run -p 8000:8000 -p 8501:8501 brainrot-app
 - pydub: Audio processing
 
 ## 📁 Project Structure
+```
 brainrot/
 ├── app.py # Streamlit (Frontend)
 ├── api.py # FastAPI endpoints (Backend)
