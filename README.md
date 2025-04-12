@@ -37,10 +37,6 @@ docker build -t brainrot-app .
 docker run -p 8000:8000 -p 8501:8501 brainrot-app
 ```
 
-4. Access the application:
-- Streamlit web-based: http://localhost:8501
-- API endpoint: http://localhost:8000/status
-
 ##  Tool Utilized
 
 ### Backend
