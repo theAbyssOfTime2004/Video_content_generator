@@ -1,8 +1,8 @@
-# Brainrot Video Generator 🎬
+# Brainrot Video Generator 
 
 A web application that automatically generates "brainrot" videos from PDF content with AI-generated subtitles and audio.
 
-## 📝 Description
+##  Description
 
 This application allows users to:
 - Upload a PDF file
@@ -12,7 +12,7 @@ This application allows users to:
 - Automatically create subtitles with Whisper AI
 - Combine everything into a complete video
 
-## 🚀 Installation and Usage
+## Installation and Usage
 
 ### Requirements
 - Docker Desktop
@@ -41,7 +41,7 @@ docker run -p 8000:8000 -p 8501:8501 brainrot-app
 - Streamlit web-based: http://localhost:8501
 - API endpoint: http://localhost:8000/status
 
-## 🛠️ Tool Utilized
+##  Tool Utilized
 
 ### Backend
 - FastAPI: REST API framework
@@ -60,7 +60,7 @@ docker run -p 8000:8000 -p 8501:8501 brainrot-app
 - ImageMagick: Image processing
 - pydub: Audio processing
 
-## 📁 Project Structure
+##  Project Structure
 ```
 brainrot/
 ├── app.py # Streamlit (Frontend)
